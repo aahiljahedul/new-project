@@ -4,8 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
-<body>
     
+<body class="bg-[#F4F7FF]">
+    <header>
+        <div class=" p-2 flex items-center  justify-between bg-[#FFFFFF] drop-shadow-2xl mx-6 mt-4">
+            <div class="flex">
+                <img class="w-4 h-6" src="/assets/logo.png" alt="">
+                <div>  <h1> <span>Dev</span><span class="font-bold">Board</span></h1></div>
+
+            </div>
+            <div class="flex gap-3  ">
+          
+            <div class="bg-[#F4F7FF]  flex gap-4 p-2  items-center rounded-l-2xl rounded-r-2xl " >
+                <img class="w-1/3 h-5 " src="/assets/checkbox.png" alt=""> 
+                <div><h3>23</h3></div>
+            </div>
+
+                   <div>
+                    <button id="background-btn" class="btn btn-circle">
+                        <img class="" src="/Group 9.png" alt="">
+                    </button>
+                    
+                   </div>
+                  
+        </div>
+            
+        </div>
+    </header>
+    <main>
+         <!-- main -->
+        <section class=" flex justify-between">
+        
+             <div class=" p-2 flex items-center   justify-between bg-[#FFFFFF] drop-shadow-2xl mx-6 mt-4">
+        <div class=" p-2 flex items-center   bg-[#F4F7FF] rounded-xl ">
+            <div class="flex gap-8 p-4 items-center  ">
+                    <img class="   " src="/assets/checkbox.png" alt=""> </div>
+                    <div>
+                        <span>Task Assigned</span>
+                        <h2 class="font-bold">05</h2>
+                    </div>
+                </div>
+                <div class="flex p-2 gap-4 cursor-pointer rounded-lg bg-gradient-to-r from-[#3752FD] to-[#6C7FFA]">
+                    <img class="w-10 " src="/assets/board.png" alt="">
+                    <div>
+                      <h2>Discover Something </h2>
+                      <p>New Today!</p>  
+
+                    </div>
+                </div>
+                <div class="flex w-100 h-200 p-2 gap-4 rounded-lg bg-[#F4F7FF]">
+                    <img class=" " src="/assets/calender.png" alt="">
+                    <div>
+                      
+                      <p id="currentDate"></p>  
+
+                    </div>
+                </div>
+            
+             </div>
+             <div>
+                
+             </div>
+
+
+           
+             </div>
+             
+        </section>
+    </main>
+    <script src="./script/rainbow.js"></script>
+    <script src="./script/current.js"></script>
 </body>
 </html>
