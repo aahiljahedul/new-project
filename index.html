@@ -7,14 +7,27 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+    <style>
+    .poppins-font {
+      font-family: "Poppins", sans-serif;
+  }</style>
 </head>
+
+
+
+
     
 <body class="bg-[#F4F7FF]">
     <header>
         <div class=" p-2 flex items-center  justify-between bg-[#FFFFFF] drop-shadow-2xl mx-6 mt-4">
             <div class="flex">
                 <img class="w-4 h-6" src="assets/logo.png" alt="">
-                <div>  <h1> <span>Dev</span><span class="font-bold">Board</span></h1></div>
+                <div class="poppins-font">  <h1> <span>Dev</span><span class="font-bold">Board</span></h1></div>
 
             </div>
             <div class="flex gap-3  ">
@@ -39,8 +52,8 @@
          <!-- main -->
         <section class="">
             <div class="flex justify-between  p-4 ">
-                <div class=" grid grid-cols-3 gap-3  bg-white mt-4 p-2 h-[900px] w-[1000px]">
-                    <div class=" flex items-center  bg-[#F4F7FF] rounded-xl ">
+                <div class=" poppins-font grid grid-cols-3 gap-3  bg-white mt-4 p-2 h-[900px] w-[1000px]">
+                    <div class=" poppins-font flex items-center  bg-[#F4F7FF] rounded-xl ">
                         <div class="flex gap-8 p-4 items   ">
                                 <img class="   " src="assets/checkbox.png" alt=""> </div>
                                 <div>
@@ -158,7 +171,7 @@
                 </div>
              <div class="p-3  space-y-3 w-[366px]  ">
               <div class="flex ">
-                <div class="flex mx-auto">
+                <div class="flex gap-3 mx-auto">
                 <div><img class="mx-auto" src="assets/activity.png" alt=""></div>
                 <div><h2>Activity History</h2></div></div>
               </div>
